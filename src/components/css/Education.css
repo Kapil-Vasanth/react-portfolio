@@ -1,0 +1,37 @@
+/* Education.css */
+
+.education {
+    padding: 80px 0;
+    background-color: #e6f4e6;
+    text-align: center;
+  }
+  
+  .education-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .education-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .education-item {
+    margin-bottom: 30px;
+  }
+  
+  .institution {
+    font-weight: bold;
+  }
+  
+  .degree {
+    font-style: italic;
+    margin-top: 5px;
+    color: #777;
+  }
+  
+  .period {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+  }

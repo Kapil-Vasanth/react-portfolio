@@ -1,0 +1,97 @@
+
+  /* HeroSection.css */
+
+  .hero-section {
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-image{
+    max-width: 500px;
+    margin-left: auto;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .hero-content{
+    text-align: left;
+    padding-left: 200px;
+  }
+  
+  .hero-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .hero-button:hover {
+    background-color: #555;
+  }
+
+  @media screen and (min-width: 700px){
+    body {
+      background : black;
+    }
+  }
+
+
+/* ipad */
+  @media all and (min-width:569px) and (max-width: 768px)  {
+      .hero-image {
+        width: 300px;
+      }
+      .hero-content{
+        padding-left: 20px;
+      }
+      .hero-title {
+        font-size: 26px;
+        margin-bottom: 10px;
+      }
+      
+      .hero-description {
+        font-size: 16px;
+        margin-bottom:20px;
+      }
+      .hero-button {
+        padding: 10px 20px;
+        font-size: 14px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: left;
+      }
+      .hero-section{
+        flex-wrap: nowrap;
+      }
+      
+    }
+    @media (min-width: 400px) and (max-width: 530px){
+      .hero-image {
+        width: 240px;
+      }
+      .hero-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .hero-content{
+        padding: 50px;
+      }
+      
+    }

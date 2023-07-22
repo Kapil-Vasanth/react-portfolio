@@ -1,0 +1,52 @@
+/* WorkExperience.css */
+
+.work-experience {
+    padding: 80px 0;
+    background-color: #f5f5dc;
+    text-align: center;
+  }
+  
+  .work-experience-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .experience-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .experience-item {
+    margin-bottom: 30px;
+  }
+  
+  .company {
+    font-weight: bold;
+  }
+  
+  .position {
+    font-style: italic;
+    margin-top: 5px;
+    color: #777;
+  }
+  
+  .period {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .description {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  .read-more{
+    display: block;
+    font-size: 12px;
+  }
+
+  @media (max-width: 768px) {
+    .work-experience{
+      padding: 30px ;
+    }
+  }
