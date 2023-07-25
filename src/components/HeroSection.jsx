@@ -7,7 +7,7 @@ function HeroSection() {
     <div className="hero-content">
       <h1 className="hero-title">Welcome to My Portfolio</h1>
       <p className="hero-description">
-        Showcase your skills, projects, and achievements here.
+        In this section of my portfolio, I'm thrilled to highlight the diverse range of talents and expertise I possess. From technical proficiency to creative problem-solving, I have honed an array of skills that enable me to excel in various domains.
       </p>
       <button className="hero-button">Get Started</button>
     </div>
