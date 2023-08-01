@@ -17,10 +17,10 @@ const Projects = () => {
   const projects = [
     {
       title: 'Eyes CodePen',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Worked on pure Vanilla JS for interactions',
       imageUrl: `${project1Image}`,
-      demoUrl: 'https://example.com/project1',
-      githubUrl: 'https://github.com/example/project1',
+      demoUrl: 'https://codepen.io/kapsdesign/pen/LYJZKJg',
+      githubUrl: 'https://github.com/Kapil-Vasanth/projects/eye',
     },
     {
       title: 'Monk Website',
