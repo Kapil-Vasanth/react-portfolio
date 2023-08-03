@@ -24,10 +24,10 @@ const Projects = () => {
     },
     {
       title: 'Monk Website',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+      description: 'Amazing Monk Website Built On Pure HTML/CSS & Vanilla Js',
       imageUrl: `${project2Image}`,
-      demoUrl: 'https://example.com/project2',
-      githubUrl: 'https://github.com/example/project2',
+      demoUrl: 'https://pixtio-monk.netlify.app/',
+      githubUrl: 'https://github.com/Kapil-Vasanth/projects/tree/main/monk',
     },
     {
       title: 'Van Life React',
