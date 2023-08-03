@@ -144,11 +144,11 @@ const Projects = () => {
                     {
                       (project.tag === 'upcoming') ? 
                         <>
-                          <a href={project.demoUrl} className="project-link">Upcoming</a>
+                          <a href="#" className="project-link">Upcoming</a>
                         </> :
                         <>
-                          <a href={project.demoUrl} className="project-link">View</a>
-                          <a href={project.githubUrl} className="project-link">GitHub</a>
+                          <a href={project.demoUrl} className="project-link" target="_blank">View</a>
+                          <a href={project.githubUrl} className="project-link" target="_blank">GitHub</a>
                         </>
                       
                     }
