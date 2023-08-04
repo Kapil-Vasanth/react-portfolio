@@ -31,17 +31,17 @@ const Projects = () => {
     },
     {
       title: 'Van Life React',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+      description: 'React Website built with amazing User Experience',
       imageUrl: `${vanLifeImage}`,
       demoUrl: 'https://example.com/project2',
       githubUrl: 'https://github.com/example/project2',
     },
     {
       title: 'ToDo Pure Js',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+      description: 'Todo App built with Vanilla JS & LocalStorage API',
       imageUrl: `${project3Image}`,
-      demoUrl: 'https://example.com/project2',
-      githubUrl: 'https://github.com/example/project2',
+      demoUrl: 'https://pixtio-todo.netlify.app/',
+      githubUrl: 'https://github.com/Kapil-Vasanth/projects/tree/main/todo',
     },
     {
       title: 'Tap Music',
