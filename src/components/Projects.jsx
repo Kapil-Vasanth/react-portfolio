@@ -45,10 +45,10 @@ const Projects = () => {
     },
     {
       title: 'Tap Music',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+      description: 'Fun & Interactive Project of Pure Vanilla JS made with Web Audio API ',
       imageUrl: `${project4Image}`,
-      demoUrl: 'https://example.com/project2',
-      githubUrl: 'https://github.com/example/project2',
+      demoUrl: 'https://pixtio-music.netlify.app/',
+      githubUrl: 'https://github.com/Kapil-Vasanth/projects/tree/main/tapMusic',
     },
     {
       title: 'ToDo FireBase App',
