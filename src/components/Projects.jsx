@@ -51,6 +51,13 @@ const Projects = () => {
       githubUrl: 'https://github.com/Kapil-Vasanth/projects/tree/main/tapMusic',
     },
     {
+      title: 'Tap Music Game',
+      description: 'Build Extra Feature for Tap Music Project with scores',
+      imageUrl: `${project4Image}`,
+      demoUrl: 'https://pixtio-music-game.netlify.app/',
+      githubUrl: 'https://github.com/Kapil-Vasanth/projects/tree/main/tapMusicGame',
+    },
+    {
       title: 'ToDo FireBase App',
       description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
       imageUrl: `${vanLifeImage}`,
@@ -67,7 +74,7 @@ const Projects = () => {
     },
     {
       title: 'EMCT Website',
-      description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
+      description: 'A Freelancing Website made with HTML/CSS/JS & Bootstrap',
       imageUrl: `${emctImage}`,
       demoUrl: 'https://example.com/project2',
       githubUrl: 'https://github.com/example/project2',
