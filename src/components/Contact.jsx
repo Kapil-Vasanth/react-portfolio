@@ -20,7 +20,16 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     // Add your logic for handling the form submission here
-    console.log(contactData);
+    const myForm = event.target;
+  const formData = new FormData(myForm);
+  
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
   };
 
   return (
@@ -31,7 +40,7 @@ const Contact = () => {
           Have a project in mind or want to get in touch? Fill out the form below and I'll get back to you as soon as
           possible:
         </p>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input
