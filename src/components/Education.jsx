@@ -16,7 +16,7 @@ const Education = () => {
   ];
 
   return (
-    <section className="education">
+    <section className="education" id='education'>
       <div className="education-content">
         <h2 className="education-title">Education</h2>
         <div className="education-list">

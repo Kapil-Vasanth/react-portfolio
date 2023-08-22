@@ -2,7 +2,7 @@ import React from 'react'
 import './css/AboutMe.css'
 function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="about-me" id="about">
       <div className="about-me-content">
         <h2 className="about-me-title">About Me</h2>
         <p className="about-me-description">
