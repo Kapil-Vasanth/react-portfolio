@@ -18,18 +18,15 @@ const Contact = () => {
   };
 
   const handleSubmit = (event) => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
     event.preventDefault();
-    // Add your logic for handling the form submission here
-    const myForm = event.target;
-  const formData = new FormData(myForm);
-  
-  fetch("/", {
-    method: "POST",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => console.log("Form successfully submitted"))
-    .catch((error) => alert(error));
   };
 
   return (
@@ -40,7 +37,9 @@ const Contact = () => {
           Have a project in mind or want to get in touch? Fill out the form below and I'll get back to you as soon as
           possible:
         </p>
-        <form onSubmit={handleSubmit} method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <form name="contact" onSubmit={handleSubmit} method="POST" data-netlify="true" data-netlify-honeypot="bot-filed">
+         
+        <input type="hidden" name="form-name" value="contact" />
           <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input
