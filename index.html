@@ -11,7 +11,20 @@
   </head>
   <body>
     <div id="root"></div>
-    <form name="contact" data-netlify="true"></form>
+    <form name="contact" data-netlify="true" hidden>
+      <div >
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <input type="text" id="subject" name="subject">
+      </div>
+      <div>
+        <textarea id="message" name="message"></textarea>
+      </div>
+    </form>
     
   </body>
 </html>
