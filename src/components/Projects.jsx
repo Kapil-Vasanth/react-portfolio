@@ -88,6 +88,14 @@ const Projects = () => {
       tag: 'upcoming'
     },
     {
+      title: 'Discord UI Project Clone',
+      description: 'React Discord UI Project Clone With Tailwind',
+      imageUrl: `${project5Image}`,
+      demoUrl: 'https://example.com/project2',
+      githubUrl: 'https://github.com/example/project2',
+      tag: 'upcoming'
+    },
+    {
       title: 'React Portfolio',
       description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco.',
       imageUrl: `${reactPortfolioImage}`,
